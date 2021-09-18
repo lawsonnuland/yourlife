@@ -11,10 +11,12 @@ button {
 
 #purchases {
 	float:left;
+	width: 35%;
 	margin: 10px;
 }
 
 #stats {
 	float:right;
+	width: 35%;
 	margin: 10px;
 }
