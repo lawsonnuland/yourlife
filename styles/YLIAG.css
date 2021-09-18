@@ -4,11 +4,14 @@ body {
 	background-color: #f6f8fa;
 }
 
-
 button {
 	padding: 20px;
 }
 
+#purchases {
+	float:left;
+}
+
 #stats {
-	float: right;
+	float:right;
 }
