@@ -6,4 +6,5 @@ var void= 0;
 function work() {
 	sadness++;
 	document.getElementById("sadness").innerHTML = sadness;
+	console.log("Error");
 }
