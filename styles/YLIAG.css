@@ -15,8 +15,15 @@ button {
 	margin: 10px;
 }
 
+#logBox {
+	background-color: gray;
+	padding: 20px;
+	width: 30%;
+	float: left;
+}
+
 #stats {
-	float:right;
+	float:left;
 	width: 35%;
 	margin: 10px;
 }
