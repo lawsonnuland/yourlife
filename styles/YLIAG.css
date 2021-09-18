@@ -11,8 +11,10 @@ button {
 
 #purchases {
 	float:left;
+	margin: 10px;
 }
 
 #stats {
 	float:right;
+	margin: 10px;
 }
