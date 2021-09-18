@@ -1,3 +1,14 @@
+body {
+	font-family: sans-serif;
+	margin: 2%;
+	background-color: #f6f8fa;
+}
+
+
 button {
-	padding: 10px;
+	padding: 20px;
+}
+
+#stats {
+	float: right;
 }
