@@ -11,22 +11,23 @@ function work() {
 	document.getElementById("sadness").innerHTML = sadness;
 }
 
-function buymisery() {
-	if (sadness>=10*(miseryCostMultiplier)) {
+function buyMisery() {
+	if (sadness >=10*(miseryCostMultiplier)) {
 		sadness -= 10*(miseryCostMultiplier);
 		document.getElementById("sadness").innerHTML = sadness;
 		misery++;
-		miseryCostMultiplier += .1;
+		miseryCostMultiplier = 1 + (misery*.1) ;
 		document.getElementById("misery").innerHTML = misery;
 	}
 }
 
-function buyemptiness() {
-	if (misery>=10*(emptinessCostMultiplier)) {
+function buyEmptiness() {
+	if (misery >=10*(emptinessCostMultiplier)) {
 		misery -= 10*(emptinessCostMultiplier);
-		document.getElementById("misery").innerHTML = sadness;
+		miseryCostMultiplier = 1 + (misery*.1) ;
+		document.getElementById("misery").innerHTML = misery;
 		emptiness++;
-		emptinessCostMultiplier += .1;
-		document.getElementById("emptiness").innerHTML = misery;
+		emptinessCostMultiplier = 1 + (emptiness*.1) ;
+		document.getElementById("emptiness").innerHTML = emptiness;
 	}
 }
