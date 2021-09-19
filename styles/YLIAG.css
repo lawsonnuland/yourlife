@@ -15,6 +15,14 @@ button {
 	margin: 10px;
 }
 
+#secretPurchases {
+	display: none;
+}
+
+#secretStats {
+	display: none;
+}
+
 #logBox {
 	background-color: gray;
 	padding: 20px;
